@@ -83,14 +83,6 @@ function lowInventory() {
     console.log('\n');
     console.log("These products are low on inventory!");
     console.table(['ID', 'Product', 'Department', 'Department ID', 'Price', 'Stock Quantity', 'Stock Quantity', 'Product Sales'], results);
-    // for (var i = 0; i < results.length; i++) {
-    //   console.log("ID: " + results[i].item_id);
-    //   console.log("Product: " + results[i].product_name);
-    //   console.log("Department: " + results[i].department_name);
-    //   console.log("Price: " + results[i].price);
-    //   console.log("Stock Quantity: " + results[i].stock_quantity);
-    //   console.log("\n");
-    // }
     inquirer
       .prompt([
         {
